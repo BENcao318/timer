@@ -1,4 +1,3 @@
-// let args = process.argv.slice(2);
 const stdin = process.stdin;
 stdin.setRawMode(true);
 stdin.setEncoding('utf8');
@@ -15,6 +14,8 @@ stdin.on('data', key => {
   }
   
 })
+
+
 
 const timer = function(sec) {
     if(sec > 0 && !isNaN(sec)){
